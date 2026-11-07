@@ -1,5 +1,5 @@
 public class Bank {
-    private Account[] accounts;
+    public Account[] accounts;
 
  public Bank(Account[] accounts) {
         this.accounts = accounts;
