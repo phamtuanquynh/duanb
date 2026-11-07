@@ -1,9 +1,9 @@
 public class Account {
-    public static int openedCount = 0;
-    public String owner;
-    public long balance;
+    private static int openedCount = 0;
+    private String owner;
+    private long balance;
     
- public  Account(String owner, long openingBalance) {
+ public Account(String owner, long openingBalance) {
         this.owner = owner;
         this.balance = Math.max(openingBalance, 0);
         openedCount++;
