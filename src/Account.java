@@ -1,7 +1,7 @@
 public class Account {
-    private static int openedCount = 0;
-    private String owner;
-    private long balance;
+    public static int openedCount = 0;
+    public String owner;
+    public long balance;
     
  public  Account(String owner, long openingBalance) {
         this.owner = owner;
